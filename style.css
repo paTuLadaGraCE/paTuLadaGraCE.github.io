@@ -14,7 +14,7 @@ ul {
   text-decoration: none;
 }li a:hover {
   background-color: #111;
-}.container {
+}.container1 {
   position: relative;
   text-align: center;
   color: white;
@@ -25,7 +25,7 @@ ul {
   transform: translate(-50%, -50%);
 }.center{
 	position: absolute;
-  top: 45%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }footer {
@@ -33,4 +33,44 @@ ul {
   padding: 10px;
   text-align: center;
   color: white;
+}form {
+  height: 400px;
+  width: 350px;
+  border: 3px  solid #f1f1f1;
+  position: center;
+}input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}button:hover {
+  opacity: 0.8;
+}.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}.container {
+  padding: 16px;
+}span.psw {
+  float: right;
+  padding-top: 16px;
+}@media screen and (max-width: 300px) {
+span.psw {
+  display: block;
+  float: none;
+}.cancelbtn {
+     width: 100%;
 }

@@ -1,15 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="style.css">
-<header>
-	<li><a href="/Users/SmartCity/Desktop/WebApp/index.html">Home</a></li>
-	<li><a href="/Users/SmartCity/Desktop/WebApp/about.html">About</a></li>
-	<li><a href="/Users/SmartCity/Desktop/WebApp/contact.html">Contact Us</a></li>
-	<li><a href="/Users/SmartCity/Desktop/WebApp/login.html">Log-in</a></header></li>
-	</header>
+  <link rel="stylesheet" type="text/css" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+}
+</style>
 </head>
 <body>
+
+  <ul>
+
+  <li><a href="/Users/SmartCity/Desktop/WebApp/index.html">Home</a></li>
+  <li><a href="/Users/SmartCity/Desktop/WebApp/about.html">About</a></li>
+  <li><a href="/Users/SmartCity/Desktop/WebApp/login.html">Login</a></li>
+  
+  
+
+    </ul>
+
+<h2>Login Form</h2>
+
+<form action="/action_page.php" method="post">
+
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+        
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+
+<footer>Website by Grace
+All rights reserved.
+</footer>
 
 </body>
 </html>
